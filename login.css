@@ -1,0 +1,92 @@
+h1{
+   font-size:x-large;
+   margin-top: 6rem;
+   text-align: center;
+   text-decoration: solid;
+   text-transform: capitalize;
+   line-height: 17px;
+   color: black;
+}
+head{
+    position: fixed;
+}
+body{
+    background-color:rgb(22, 25, 38);
+}
+ .login_box{
+    background:  #6f899d; 
+    width: 700px;
+    height: 600px;
+    position: relative;
+    margin: 8% auto;
+    padding: 6px 5px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 16px rgba(35, 36, 34, 0.239), -10px -10px 15px white;
+
+ }
+ .login_box:hover{
+    box-shadow: 13px 13px 18px rgb(91, 92, 85) -10px -10px 15px white;
+
+ }
+ .user{
+   display: flex;
+   justify-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   padding: 4px;
+   align-items: center;
+   width: 10rem;
+   height: 10rem;
+   margin-top: 3%;
+   text-align: left;
+   padding: left;
+   padding-top: 4px;
+   padding-bottom: 4px;
+}
+.user input{
+   border: 17px;
+   border-radius: 24px;
+   box-shadow: inset 5px 5px 5px rgb(147,177,145,0.7), inset -5px,-5px,-5px white;
+   margin-left: 40rem;
+   margin-right: 10rem;
+   width: 20rem;
+   line-height: 4rem;
+   align-items: center;
+   text-align: center;
+   padding: left;
+   padding-bottom: 4px;
+   background-color:white;
+   font-size: medium;
+   color: black;
+}
+.box{
+   margin-top: 5rem;
+   position: relative;
+   display: inline-block;
+   margin-left: 10rem;
+   margin-right: auto;
+   text-align: center;
+   width: 45%;
+   border: none;
+   box-sizing: border-box;
+   color: black;
+   border-radius: 5rem;
+}
+.name{
+   font-size:x-large;
+   margin-bottom: 6rem;
+   text-align: center;
+   text-decoration: solid;
+   text-transform: capitalize;
+   line-height: 17px;
+   color: black;
+}
+.btn{
+   font-size:x-large;
+   margin-bottom: 6rem;
+   text-align: center;
+   text-decoration: solid;
+   text-transform: capitalize;
+   line-height: 17px;
+   color: black;
+}
