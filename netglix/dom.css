@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.string{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       margin: 8px, 8px;
+}
+section.string>input{
+    margin: 8px;
+    padding: 7px;
+}
+section.submission{
+    text-align: center;
+    font-size: large;
+    border: 6px;
+}
